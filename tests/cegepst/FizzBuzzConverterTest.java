@@ -27,15 +27,15 @@ class FizzBuzzConverterTest {
     }
 
     @Test
-    public void FizzBuzz() {
+    public void testFizzBuzz() {
         assertEquals("Fizz Buzz", converter.convert(15));
         assertEquals("Fizz Buzz", converter.convert(30));
-        assertEquals("Fizz Buzz", converter.convert(40));
+        assertEquals("Fizz Buzz", converter.convert(45));
     }
 
     @Test
     public void testNormal() {
         assertEquals("1", converter.convert(1));
-        assertEquals("1", converter.convert(4));
+        assertEquals("4", converter.convert(4));
     }
 }
